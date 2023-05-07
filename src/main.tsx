@@ -6,7 +6,7 @@ import { FronteggProvider } from '@frontegg/react';
 
 
 const contextOptions = {
-  baseUrl: 'https://app-j449pk9fj81q.frontegg.com',
+  baseUrl: 'https://app-zjhve1nr3yff.frontegg.com',
   clientId: '0df2a854-4753-4382-865f-94e53f1b991c'
 };
 
