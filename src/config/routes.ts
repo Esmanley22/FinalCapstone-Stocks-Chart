@@ -21,7 +21,7 @@ const routes: RouteType[] = [
       path: "/CandlesChart",
       component: CandlesChart,
       name: "Candlestick Chart",
-      protected: true,
+      protected: false,
     },
     {
       path: "/Learn",
