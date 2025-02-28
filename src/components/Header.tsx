@@ -4,7 +4,7 @@ import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons/faArrowTrendUp
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useAuth, useLoginWithRedirect, ContextHolder, AuthorizedContent, useAuthUser, AdminPortal } from "@frontegg/react";
+// import { useAuth, useLoginWithRedirect, ContextHolder, AuthorizedContent, useAuthUser, AdminPortal } from "@frontegg/react";
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
@@ -56,7 +56,7 @@ export const Header = () => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          {
+{/*           {
                       !  isAuthenticated ?
 
             <Nav.Link href="#" className='text-black' disabled><div> Restricted </div></Nav.Link>
@@ -68,7 +68,7 @@ export const Header = () => {
           </AuthorizedContent> */}
 
           <Nav.Link href="/Learn" className='text-white'>Learn Patterns</Nav.Link>
-          <NavDropdown title="Account" className='text-white' id="basic-nav-dropdown">
+{/*           <NavDropdown title="Account" className='text-white' id="basic-nav-dropdown">
           {
                       !  isAuthenticated ?
 
@@ -81,7 +81,7 @@ export const Header = () => {
             <NavDropdown.Item href="/#" className='text-black bg-light' onClick={ () => { logout()}}><div> Sign out </div></NavDropdown.Item>
             </>
           }
-          </NavDropdown>
+          </NavDropdown> */} */}
 
           </Nav>
           <Form className="d-flex">
